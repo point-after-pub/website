@@ -1,0 +1,77 @@
+doctype html
+html
+    head
+        meta(content='text/html;charset=utf-8' http-equiv='Content-Type')
+        meta(content='utf-8' http-equiv='encoding')
+        meta(name='viewport' content='width=device-width,initial-scale=1.0')
+        link(rel='stylesheet' href='css/style.css')
+        link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1' crossorigin='anonymous')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js' integrity='sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW' crossorigin='anonymous')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+
+    body
+        //- nav#pa-nav.navbar.navbar-expand-lg.navbar-light.fixed-top
+        //-     button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+        //-         span.navbar-toggler-icon
+        //-     #navbarSupportedContent.collapse.navbar-collapse
+        //-         ul.navbar-nav.me-auto.mb-2.mb-lg-0
+        //-         li.nav-item
+        //-             a.nav-link(href='index.html')  Home 
+        //-         li.nav-item
+        //-             a.nav-link.current(href='menu.html') Menu
+        //-         li.nav-item
+        //-             a.nav-link(href='specials.html') Specials
+
+        .container(style='background-color: black; margin-top:100px; height:100px; position:static; z-index:100')
+            | asdfasdf
+        #main-container.container(style='margin-top:-100px;')
+            img#logo(src='images/logo.png')
+            #curbSideMenuLayout.menu-container
+                .row
+                    .col-lg-4
+                        .group-1
+                    .col-lg-8
+                        .group-2
+                        .group-3
+                .row(style='margin-top: 25px')
+                    .col-lg-12
+                        .group-4
+            #fridayMenuLayout.menu-container
+                .row
+                    .col-lg-4
+                        .group-1
+                    .col-lg-8
+                        .group-2
+                .row(style='margin-top: 25px')
+                    .col-lg-12
+                        .group-3
+                        .group-4
+        script#groupTemplate(type='text/template').
+            <div class="pa-menu-group-heading pa-menu-group-divider">{{groupName}}</div>
+            {{#if groupDescription}}
+            <div class="pa-menu-group-description pa-menu-group-divider">{{groupDescription}}</div>
+            {{/if}}
+        script#groupItemTemplate(type='text/template').
+            <div class="pa-menu-item-heading">{{name}}</div>{{#if description}}<div class="pa-menu-item-description">{{description}}</div>{{/if}}
+            {{#if price}}<div class="pa-menu-item-price">{{resolve_price}}</div>{{/if}}
+            {{#if addOns}}
+            {{#each addOns}}<div class="pa-menu-item-add-on">{{name}} &nbsp; {{resolve_price}}</div>  {{/each}}
+            {{/if}}
+        script#groupItemInlineTemplate(type='text/template').
+            <div><span class="pull-left">{{name}}</span><span class="pull-right">{{resolve_price}}</span></div><div class="clearfix"></div>
+        script#group2ColTemplate(type='text/template').
+            <div class="row"><div class="col-lg-6">{{#each left}}
+            {{> groupItem}}
+            {{/each}}</div><div class="col-lg-6">{{#each right}}
+            {{> groupItem}}
+            {{/each}}</div></div>
+        script#group3ColTemplate(type='text/template').
+            <div class="row"><div class="col-lg-4">{{#each left}}
+            {{> groupItem}}
+            {{/each}}</div><div class="col-lg-4">{{#each middle}}
+            {{> groupItem}}
+            {{/each}}</div><div class="col-lg-4">{{#each right}}
+            {{> groupItem}}
+            {{/each}}</div></div>
+        script(src='lib/handlebars.min.js')
+        script(src='js/menu.js')
