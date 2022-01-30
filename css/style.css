@@ -28,24 +28,20 @@ body{
 }
 
 #main-container{
-    border-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     background: rgba(226,203,184, .96);
     color: rgb(60,36,21);
-    /*border: 2px solid whitesmoke;*/
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 
 #pa-nav{
-    font-family: ddinBold, sans-serif;
-    font-size: 16pt;
-    margin-top:13px;
-}
-
-#pa-nav .navbar-nav{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top:100px;
     background: rgba(60,36,21,.96);
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
+    font-size: 1.2em;
+    font-family: ddinBold, sans-serif;
 }
 
 #pa-nav .nav-item{
@@ -64,7 +60,8 @@ body{
 
 #logo{
     position:relative;
-    top: -50px;
+    top: -100px;
+    margin-bottom: -75px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -92,6 +89,7 @@ body{
 /*---- Specials ----*/
 .pa-special-item{
     margin-left: 40px;
+    font-size: 1.5em;
 }
 
 /*---- Menu ----*/
@@ -104,10 +102,6 @@ body{
     color: rgb(60,36,21);
     padding: 10px 0 10px 0;
 }
-
-/*.pa-menu-group-divider{*/
-/*    border-bottom: 1px solid rgb(60,36,21);*/
-/*}*/
 
 .pa-menu-group-divider + .pa-menu-item-heading{
     margin-top:20px;

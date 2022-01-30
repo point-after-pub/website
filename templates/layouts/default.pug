@@ -1,0 +1,32 @@
+block vars
+
+doctype html
+html
+    head
+        meta(content='text/html;charset=utf-8' http-equiv='Content-Type')
+        meta(content='utf-8' http-equiv='encoding')
+        meta(name='viewport' content='width=device-width,initial-scale=1.0')
+        link(rel='stylesheet' href='css/style.css')
+        link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1' crossorigin='anonymous')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js' integrity='sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW' crossorigin='anonymous')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        title Point After Pub - #{page}
+    body
+        .container(style="padding:0px")
+            nav#pa-nav.navbar.navbar-expand-lg.navbar-dark
+                button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                #navbarSupportedContent.collapse.navbar-collapse
+                    ul.navbar-nav.mr-auto
+                        li.nav-item
+                            a.nav-link(href='index.html' class=page=='Home' ? 'current' : '')  Home 
+                        li.nav-item
+                            a.nav-link(href='menu.html' class=page=='Menu' ? 'current' : '') Menu
+                        li.nav-item
+                            a.nav-link(href='specials.html' class=page=='Specials' ? 'current' : '') Specials
+
+        #main-container.container
+            img#logo(src='images/logo.png')
+            block content
+
+        block scripts
