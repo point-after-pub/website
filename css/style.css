@@ -58,6 +58,15 @@ body{
     text-decoration: underline;
 }
 
+.navbar-dark .navbar-toggler{
+    border: none !important;
+}
+
+.navbar-dark .navbar-toggler:focus{
+    box-shadow: none !important;
+    border: none !important;
+}
+
 #logo{
     position:relative;
     top: -100px;
@@ -89,7 +98,7 @@ body{
 /*---- Specials ----*/
 .pa-special-item{
     margin-left: 40px;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 /*---- Menu ----*/
@@ -151,6 +160,15 @@ body{
     #main-container{
         min-width: 100%;
         border-radius: 0;
+    }
+
+    #pa-nav-container{
+        min-width: 100%;
+    }
+
+    #pa-nav{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }
 
     #logo{
