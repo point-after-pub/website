@@ -4,26 +4,27 @@ block vars
     - var page = 'Menu'
 
 block content
-    #curbSideMenuLayout.menu-container
-        .row
-            .col-lg-4
-                .group-1
-            .col-lg-8
-                .group-2
-                .group-3
-        .row(style='margin-top: 25px')
-            .col-lg-12
-                .group-4
-    #fridayMenuLayout.menu-container
-        .row
-            .col-lg-4
-                .group-1
-            .col-lg-8
-                .group-2
-        .row(style='margin-top: 25px')
-            .col-lg-12
-                .group-3
-                .group-4
+    #main-container.container
+        #curbSideMenuLayout.menu-container
+            .row
+                .col-lg-4
+                    .group-1
+                .col-lg-8
+                    .group-2
+                    .group-3
+            .row(style='margin-top: 25px')
+                .col-lg-12
+                    .group-4
+        #fridayMenuLayout.menu-container
+            .row
+                .col-lg-4
+                    .group-1
+                .col-lg-8
+                    .group-2
+            .row(style='margin-top: 25px')
+                .col-lg-12
+                    .group-3
+                    .group-4
 
 block scripts
     script#groupTemplate(type='text/template').
