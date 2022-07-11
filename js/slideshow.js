@@ -5,6 +5,9 @@ class Slideshow{
         let images_path = 'images/'
         this.images = [
           images_path + 'glasses.png',
+          images_path + 'burger.png',
+          images_path + 'salad.png',
+          images_path + 'blt.png',
           images_path + 'soup.png',
         ]
 
