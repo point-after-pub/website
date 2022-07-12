@@ -7,7 +7,7 @@ class Slideshow{
           images_path + 'glasses.png',
           images_path + 'burger.png',
           images_path + 'salad.png',
-          images_path + 'blt.png',
+          images_path + 'fishfry.png',
           images_path + 'soup.png',
         ]
 
