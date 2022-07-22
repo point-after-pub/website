@@ -173,8 +173,8 @@
         "price": 12.99
       },
       {
-        "name": "Shrimp Po Boy",
-        "description" : "Deep fried popcorn shrimp, cheddar cheese, lettuce, tomato and jalapeño aioli served on a hoagie bun",
+        "name": "Shrimp Po Boy Wrap",
+        "description" : "Deep fried popcorn shrimp, cheddar cheese, lettuce, tomato and jalapeño aioli served in a garlic herb wrap",
         "price": 13.99
       }
     ]
@@ -204,7 +204,7 @@
       },
       {
         "name": "Caesar Salad",
-        "description" : "Romaine lettuce, tomato, shredded parmesan cheese and croutons tossed in caesar dressing. Served with garlic toast",
+        "description" : "Romaine lettuce, tomato, shredded parmesan cheese and croutons served with caesar dressing. Served with garlic toast",
         "price": 8.99,
         "addOns": [
           {
