@@ -49,7 +49,7 @@
       },
       {
         "name": "Hangover Fries",
-        "description" : "Brew city fries topped with cheese sauce, bacon and bleu cheese crumbles",
+        "description" : "Fries topped with cheese sauce, bacon and bleu cheese crumbles",
         "price": 8.99
       },
       {
@@ -61,7 +61,7 @@
   },
   {
     "groupName": "Burgers, Chicken & More",
-    "groupDescription": "Includes choice of brew city fries, kettle chips, homemade potato salad or cottage cheese. Substitute side salad or soup for $2.29. Lettuce, tomato and pickles upon request",
+    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute side salad or soup for $2.29. Lettuce, tomato and pickles upon request",
     "layout": "2col",
     "items": [
       {
@@ -124,7 +124,7 @@
   },
   {
     "groupName": "Seafood",
-    "groupDescription": "Includes choice of brew city fries, kettle chips, homemade potato salad or cottage cheese. Substitute side salad or soup for $2.29",
+    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute side salad or soup for $2.29",
     "layout": "2col",
     "items": [
       {
