@@ -133,7 +133,7 @@
       {
         "name": "Bleu Cheese Bacon Salad",
         "description" : "Romaine lettuce, spring mix, tomato, cucumber, bacon, bleu cheese crumbles and blackened chicken. Served with choice of dressing and garlic toast",
-        "price": 12.99
+        "price": 13.99
       },
       {
         "name": "Caesar Salad",
@@ -208,11 +208,6 @@
     "groupDescription": "Includes choice of brew city fries, kettle chips, homemade potato salad or cottage cheese. Substitute sweet potato fries, side salad or soup for $2.29",
     "layout": "2col",
     "items": [
-      {
-        "name": "Shrimp Po Boy Wrap",
-        "description" : "Deep fried popcorn shrimp, cheddar cheese, lettuce, tomato and jalapeño aioli served in a garlic herb wrap",
-        "price": 13.99
-      },
       {
         "name": "Fish Reuben",
         "description" : "Three pieces of haddock blackened topped with coleslaw, Swiss cheese and ancho chipotle sauce served on grilled rye bread",
@@ -301,6 +296,11 @@
       {
         "name": "Roasted Red Pepper Chicken",
         "description" : "Grilled chicken breast topped with roasted red peppers, popper jack cheese and ranch dressing served on a focaccia bun",
+        "price": 13.99
+      },
+      {
+        "name": "Shrimp Po Boy Wrap",
+        "description" : "Deep fried popcorn shrimp, cheddar cheese, lettuce, tomato and jalapeño aioli served in a garlic herb wrap",
         "price": 13.99
       }
     ]
