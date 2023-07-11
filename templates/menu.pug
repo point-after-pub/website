@@ -5,31 +5,28 @@ block vars
 
 block content
     #main-container.container
-        a.pa-menu-change(href="PA_USSO_Menu.pdf" target="_blank") U.S. Senior Open Menu June 26 - July 2
-        br
-        br
-        //- #curbSideMenuLayout.menu-container
-        //-     a.pa-menu-change(onclick='changeMenu(true)') View Friday Menu
-        //-     .row
-        //-         .col-lg-4
-        //-             .group-1
-        //-         .col-lg-8
-        //-             .group-2
-        //-             .group-3
-        //-     .row(style='margin-top: 25px')
-        //-         .col-lg-12
-        //-             .group-4
-        //- #fridayMenuLayout.menu-container
-        //-     a.pa-menu-change(onclick='changeMenu(false)') View Regular Menu
-        //-     .row
-        //-         .col-lg-4
-        //-             .group-1
-        //-         .col-lg-8
-        //-             .group-2
-        //-     .row(style='margin-top: 25px')
-        //-         .col-lg-12
-        //-             .group-3
-        //-         .group-4
+        #curbSideMenuLayout.menu-container
+            a.pa-menu-change(onclick='changeMenu(true)') View Friday Menu
+            .row
+                .col-lg-4
+                    .group-1
+                .col-lg-8
+                    .group-2
+                    .group-3
+            .row(style='margin-top: 25px')
+                .col-lg-12
+                    .group-4
+        #fridayMenuLayout.menu-container
+            a.pa-menu-change(onclick='changeMenu(false)') View Regular Menu
+            .row
+                .col-lg-4
+                    .group-1
+                .col-lg-8
+                    .group-2
+            .row(style='margin-top: 25px')
+                .col-lg-12
+                    .group-3
+                .group-4
 
 block scripts
     script#groupTemplate(type='text/template').
@@ -60,4 +57,4 @@ block scripts
         {{> groupItem}}
         {{/each}}</div></div>
     script(src='lib/handlebars.min.js')
-    //- script(src='js/menu.js')
+    script(src='js/menu.js')
