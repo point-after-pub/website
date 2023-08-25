@@ -5,7 +5,7 @@
     "items": [
       {
         "name": "Cheese Curds",
-        "description" : "White or yellow. Served with a side of ranch",
+        "description" : "Lightly breaded white curds, served with a side of ranch",
         "price": 8.99
       },
       {
@@ -44,7 +44,7 @@
       },
       {
         "name": "Onion Rings",
-        "description" : "Thick sliced onions hand battered and deep fried to perfection. Served with a side of bistro sauce",
+        "description" : "Thick sliced onions hand battered and deep fried to perfection. Served with a side of ranch",
         "price": 7.99
       },
       {

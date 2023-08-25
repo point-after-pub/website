@@ -1,0 +1,226 @@
+[
+  {
+    "groupName": "Appetizers",
+    "items": [
+      {
+        "name": "Nachos",
+        "description" : "Monterey jack cheese sauce, tomato, lettuce, black olives, onions, jalapeños, sour cream and salsa",
+        "price": 8.99,
+        "addOns": [
+          {
+            "name": "Beef or Chicken",
+            "price": 11.99
+          },
+          {
+            "name": "Pork",
+            "price": 12.99
+          }
+        ]
+      },
+      {
+        "name": "Onion Rings",
+        "description" : "Thick sliced onions hand battered and deep fried to perfection. Served with a side of bistro sauce",
+        "price": 7.99
+      },
+      {
+        "name": "Pretzel Bites",
+        "description" : "Soft pretzel bites served with Monterey jack cheese sauce or honey mustard",
+        "price": 8.99
+      },
+      {
+        "name": "Portabella Mushrooms",
+        "description" : "Sliced portabellas hand battered and deep fried to perfection. Served with a side of ranch",
+        "price": 8.99
+      },
+      {
+        "name": "Pickle Chips",
+        "description" : "Pickle chips lightly seasoned with Cajun, hand battered and deep fried to perfection. Served with a side of ranch",
+        "price": 7.99
+      },
+      {
+        "name": "Boneless Wings",
+        "description" : "Choice of buffalo, chipotle BBQ, sweet & tangy BBQ or teriyaki sauce",
+        "price": 8.99
+      },
+      {
+        "name": "Crab Cakes",
+        "description" : "Three 3.5 oz crab cakes served on a bed of spring mix topped with tomatoes, jalapeño aioli and balsamic glaze",
+        "price": 12.99
+      },
+      {
+        "name": "Hangover Fries",
+        "description" : "Fries topped with cheese sauce, bacon and bleu cheese crumbles",
+        "price": 8.99
+      },
+      {
+        "name": "Cheese Curds",
+        "description" : "White or yellow. Served with a side of ranch",
+        "price": 8.99
+      }
+    ]
+  },
+  {
+    "groupName": "Burgers, Chicken & More",
+    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute side salad or soup for $2.29. Lettuce, tomato and pickles upon request",
+    "layout": "2col",
+    "items": [
+      {
+        "name": "Jalapeño Popper Burger",
+        "description" : "1/3 pound patty with sautéed jalapeños, fried onions, and topped with cream cheese on a sourdough bun with a side of hot sauce",
+        "price": 13.99
+      },
+      {
+        "name": "Chicken Sandwich",
+        "description" : "Grilled or fried chicken breast served on a sourdough bun",
+        "price": 11.99
+      },
+      {
+        "name": "Western Burger",
+        "description" : "1/3 pound patty smothered in chipotle BBQ with swiss cheese, bacon and onion rings on a sourdough bun",
+        "price": 13.99
+      },
+      {
+        "name": "Southwest Chicken",
+        "description" : "Fried chicken breast topped with pepper jack cheese, bacon and ancho chipotle sauce served on a sourdough bun",
+        "price": 13.99
+      },
+      {
+        "name": "Dallas Burger",
+        "description" : "1/3 pound patty topped with bacon, cheddar cheese, coleslaw, deep fried pickles and cajun seasoning served on a sourdough bun",
+        "price": 13.99
+      },
+      {
+        "name": "Pesto Chicken",
+        "description" : "Grilled chicken breast topped with pesto sauce and mozzarella cheese served on a focaccia bun and a side of pesto mayo",
+        "price": 13.99
+      },
+      {
+        "name": "Santa Fe Burger",
+        "description" : "1/3 pound patty topped with bacon, sautéed jalapeños, pepper jack cheese and ancho chipotle ranch sauce served on a sourdough bun",
+        "price": 13.99
+      },
+      {
+        "name": "Philly Cheese Steak",
+        "description" : "Sliced steak, fried onions, green peppers and mozzarella cheese served on a hoagie bun",
+        "price": 13.99
+      },
+      {
+        "name": "Hamburger",
+        "description" : "1/3 pound patty on a sourdough bun (add cheese for $1 [American, cheddar, swiss, pepper jack or mozzarella])",
+        "price": 11.99,
+        "addOns": [
+          {
+            "name": "Veggie Burger",
+            "price": 12.99
+          }
+        ]
+      },
+      {
+        "name": "Chicken Caesar Wrap",
+        "description" : "Romaine lettuce, tomato, shredded parmesan cheese, grilled chicken and caesar dressing in a garlic herb wrap",
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "groupName": "Seafood",
+    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute side salad or soup for $2.29",
+    "layout": "2col",
+    "items": [
+      {
+        "name": "Fish Fry",
+        "description" : "Four 2 oz pieces of haddock served with tartar sauce, coleslaw and rye bread. Choose up to two flavors: beer battered, seasoned breaded, pan fried cajun, or pan fried lemon pepper",
+        "price": 14.99
+      },
+      {
+        "name": "Salmon",
+        "description" : "Two 4oz filets of salmon, choice of blackened, lemon pepper or Key West seasoning.  Served with coleslaw and rye bread",
+        "price": 22.99
+      },
+      {
+        "name": "Fish Reuben",
+        "description" : "Three pieces of haddock blackened topped with coleslaw, Swiss cheese and ancho chipotle sauce served on grilled rye bread",
+        "price": 13.99
+      },
+      {
+        "name": "Shrimp Tacos",
+        "description" : "Two tortilla shells filled with shrimp, cheddar cheese, lettuce and tomato topped with ancho chipotle sauce",
+        "price": 13.99
+      },
+      {
+        "name": "Shrimp Fry",
+        "description" : "Eight pieces of shrimp, hand battered and deep fried till golden in our own beer batter. Served with cocktail sauce, coleslaw, rye bread",
+        "price": 16.99
+      },
+      {
+        "name": "Blackened Tuna Steak",
+        "description" : "6 oz tuna steak blackened with Cajun seasoning and topped with jalapeño aioli and balsamic glaze",
+        "price": 16.99
+      },
+      {
+        "name": "Beer Battered Fish Sandwich",
+        "description" : "Two pieces of beer battered haddock fish topped with cheddar cheese served on a sourdough bun with a side of tartar sauce",
+        "price": 12.99
+      },
+      {
+        "name": "Shrimp Wrap",
+        "description" : "Deep fried popcorn shrimp, cheddar cheese, lettuce, tomato and ancho chipotle sauce in a garlic herb wrap",
+        "price": 13.99
+      },
+      {
+        "name": "Fish Tacos",
+        "description" : "Two tortilla shells filled with fish, cheddar cheese, lettuce and tomato topped with ancho chipotle sauce",
+        "price": 12.99
+      },
+      {
+        "name": "Shrimp Po Boy Wrap",
+        "description" : "Deep fried popcorn shrimp, cheddar cheese, lettuce, tomato and jalapeño aioli served in a garlic herb wrap",
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "groupName": "Salads",
+    "groupDescription": "Dressing: ranch, French, Italian, honey mustard, thousand island, bleu cheese, toasted sesame, Caesar, raspberry vinaigrette, balsamic vinaigrette",
+    "items": [
+      {
+        "name": "Garden Salad",
+        "description" : "Romaine lettuce, spring mix, tomato, onion, cucumber, green pepper and shredded cheddar cheese and croutons. Served with choice of dressing and garlic toast",
+        "price": 8.99,
+        "addOns": [
+          {
+            "name": "Crispy or Grilled Chicken",
+            "price": 13.99
+          },
+          {
+            "name": "Shrimp",
+            "price": 14.99
+          },
+          {
+            "name": "Salmon",
+            "price": 17.99
+          }
+        ]
+      },
+      {
+        "name": "Caesar Salad",
+        "description" : "Romaine lettuce, tomato, shredded parmesan cheese and croutons served with caesar dressing. Served with garlic toast",
+        "price": 8.99,
+        "addOns": [
+          {
+            "name": "Chicken",
+            "price": 13.99
+          },
+          {
+            "name": "Shrimp",
+            "price": 14.99
+          },
+          {
+            "name": "Salmon",
+            "price": 17.99
+          }
+        ]
+      }
+    ]
+  }
+]

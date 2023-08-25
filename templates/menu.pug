@@ -6,7 +6,7 @@ block vars
 block content
     #main-container.container
         #curbSideMenuLayout.menu-container
-            //- a.pa-menu-change(onclick='changeMenu(true)') View Friday Menu
+            a.pa-menu-change(onclick='changeMenu(true)') View Friday Menu
             .row
                 .col-lg-8
                     .group-1
@@ -28,14 +28,19 @@ block content
         #fridayMenuLayout.menu-container
             a.pa-menu-change(onclick='changeMenu(false)') View Regular Menu
             .row
-                .col-lg-4
+                .col-lg-12
                     .group-1
-                .col-lg-8
+            .row(style='margin-top: 25px')
+                .col-lg-6
                     .group-2
+                .col-lg-6
+                    .group-3
             .row(style='margin-top: 25px')
                 .col-lg-12
-                    .group-3
-                .group-4
+                    .group-4
+            .row(style='margin-top: 25px')
+                .col-lg-12
+                    .group-5
 
 block scripts
     script#groupTemplate(type='text/template').
