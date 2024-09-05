@@ -26,17 +26,21 @@
       {
         "name": "Nachos",
         "description" : "Monterey jack cheese sauce, tomato, lettuce, black olives, onions, jalapeños, sour cream and salsa",
-        "price": 9.99,
+        "price": 8.99,
         "addOns": [
           {
-            "name": "Beef, Chicken or Pork",
+            "name": "Beef or Chicken",
+            "price": 11.99
+          },
+          {
+            "name": "Pork",
             "price": 12.99
           }
         ]
       },
       {
         "name": "Boneless Wings",
-        "description" : "8oz of boneless wings tossed in your choice of sauce, Nashville Hot, sweet and tangy BBQ, Chipotle BBQ, Buffalo or Teriyaki.",
+        "description" : "Choice of buffalo, chipotle BBQ, sweet & tangy BBQ or teriyaki sauce",
         "price": 9.99
       },
       {
@@ -58,7 +62,7 @@
   },
   {
     "groupName": "Salad",
-    "groupDescription": "Dressing: ranch, French, Italian, honey mustard, thousand island, bleu cheese, Caesar, raspberry vinaigrette, balsamic vinaigrette.",
+    "groupDescription": "All dressing served on the side.Your choice of: ranch, French, Italian, honey mustard, thousand island, bleu cheese, Caesar, raspberry vinaigrette, balsamic vinaigrette",
     "layout": "1col",
     "items": [
       {
@@ -103,7 +107,7 @@
   },
   {
     "groupName": "Chicken",
-    "groupDescription": "All chicken includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute side salad or soup for $2.29.",
+    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute sweet potato fries, side salad or soup for $2.29.",
     "layout": "1col",
     "items": [
       {
@@ -170,20 +174,25 @@
         "price": 13.99
       },
       {
-        "name": "Salmon Club",
-        "description" : "Grilled salmon topped with a jalapeno aoili, bacon, lettuce and tomato served on a ciabatta bun.",
-        "price": 17.99
+        "name": "Salmon",
+        "description" : "Two 4oz filets of salmon, choice of blackened, lemon pepper or Key West seasoning.  Served with coleslaw and rye bread",
+        "price": 22.99
       },
       {
         "name": "Shrimp Tacos",
         "description" : "Two tortilla shells filled with shrimp, cheddar cheese, lettuce and tomato topped with ancho chipotle sauce",
         "price": 13.99
+      },
+      {
+        "name": "Salmon Club",
+        "description" : "Grilled salmon topped with a jalapeno aoili, bacon, lettuce and tomato served on a ciabatta bun",
+        "price": 17.99
       }
     ]
   },
   {
     "groupName": "Burgers",
-    "groupDescription": "All burgers includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute side salad or soup for $2.29.",
+    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute sweet potato fries, side salad or soup for $2.29.",
     "layout": "3col",
     "items": [
       {

@@ -9,28 +9,18 @@
         "price": 8.99
       },
       {
-        "name": "Chicken Strips",
-        "description" : "4 pieces, served with choice of sauce",
-        "price": 8.99
+        "name": "Boneless Wings",
+        "description" : "Choice of buffalo, chipotle BBQ, sweet & tangy BBQ or teriyaki sauce",
+        "price": 9.99
       },
       {
         "name": "Hangover Fries",
         "description" : "Fries topped with cheese sauce, bacon and bleu cheese crumbles",
         "price": 8.99
-      },      
-      {
-        "name": "Boneless Wings",
-        "description" : "8oz of boneless wings tossed in your choice of sauce: sweet and tangy BBQ, Chipotle BBQ, Buffalo, Nashville Hot or Teriyaki",
-        "price": 9.99
       },
       {
-        "name": "Pretzel Bites",
-        "description" : "Soft pretzel bites deep fried to perfection and served with Monterey jack cheese sauce",
-        "price": 8.99
-      },      
-      {
         "name": "Traditional Wings",
-        "description" : "Bone-in wings tossed in your choice of sauce: sweet and tangy BBQ, Chipotle BBQ, Buffalo, Nashville Hot or Teriyaki",
+        "description" : "Bone-in wings tossed in your choice of sauce: sweet and tangy BBQ, Chipotle BBQ, Buffalo or Teriyaki.",
         "addOns": [
           {
             "name": "6 Wings",
@@ -43,14 +33,34 @@
         ]
       },
       {
-        "name": "Onion Rings",
-        "description" : "Thick sliced onions hand battered and deep fried to perfection. Served with a side of ranch",
-        "price": 7.99
-      },      
+        "name": "Pretzel Bites",
+        "description" : "Soft pretzel bites served with Monterey jack cheese sauce or honey mustard",
+        "price": 8.99
+      },
       {
         "name": "Pickle Chips",
         "description" : "Pickle chips lightly seasoned with Cajun, hand battered and deep fried to perfection. Served with a side of ranch",
         "price": 7.99
+      },
+      {
+        "name": "Onion Rings",
+        "description" : "Thick sliced onions hand battered and deep fried to perfection. Served with a side of ranch",
+        "price": 7.99
+      },
+      {
+        "name": "Nachos",
+        "description" : "Monterey jack cheese sauce, tomato, lettuce, black olives, onions, jalapeños, sour cream and salsa",
+        "price": 8.99,
+        "addOns": [
+          {
+            "name": "Beef or Chicken",
+            "price": 11.99
+          },
+          {
+            "name": "Pork",
+            "price": 12.99
+          }
+        ]
       },
       {
         "name": "Portabella Mushrooms",
@@ -58,49 +68,47 @@
         "price": 8.99
       },
       {
-        "name": "Jalapeño Poppers",
-        "description" : "Jalapeños stuffed with cream cheese, breaded and deep fried to perfection",
+        "name": "Chicken Strips",
+        "description" : "4 pieces, served with choice of sauce",
         "price": 8.99
-      },
-      {
-        "name": "Nachos",
-        "description" : "Monterey jack cheese sauce, tomato, lettuce, black olives, onions, jalapeños, sour cream and salsa",
-        "price": 9.99,
-        "addOns": [
-          {
-            "name": "Beef, Chicken or Pork",
-            "price": 12.99
-          }
-        ]
       }
     ]
   },
   {
     "groupName": "Quesadillas",
-    "groupDescription": "served with sour cream and salsa upon request",
     "items": [
       {
-        "name": "Cajun Chicken",
-        "description" : "Quesadilla loaded with shredded cajun chicken, cheddar cheese, jalapeños, tomato and black olives on flour tortillas served with a side of ancho chipotle sauce",
-        "price": 11.99
+        "name": "Veggie",
+        "description" : "Cheddar cheese quesadilla loaded with jalapeños, tomato and black olives on flour tortillas drizzled with ancho chipotle sauce",
+        "price": 8.99,
+        "addOns": [
+          {
+            "name": "Shredded Cajun Chicken",
+            "price": 10.99
+          },
+          {
+            "name": "Shrimp",
+            "price": 11.99
+          }
+        ]
       },
       {
-        "name": "Chicken Bacon Ranch",
-        "description" : "Quesadilla loaded with shredded cajun chicken, bacon, tomato, cheddar cheese and served with a side of ranch dressing on flour tortillas",
+        "name": "Spicy CBR",
+        "description" : "Quesadilla loaded with shredded cajun chicken, bacon, tomato, cheddar cheese and drizzled with ranch dressing on flour tortillas",
+        "price": 10.99
+      },
+      {
+        "name": "BBQ Pork",
+        "description" : "Quesadilla loaded with shredded pork, cheddar cheese, jalapenos, tomato, drizzled with chipotle BBQ sauce on flour tortillas",
         "price": 11.99
       }
     ]
   },
   {
     "groupName": "Sandwiches & Wraps",
-    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute sweet potato fries, tater tots, side salad or soup for $2.29",
+    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute sweet potato fries, side salad or soup for $2.29",
     "layout": "3col",
     "items": [
-      {
-        "name": "Pulled Pork Grilled Cheese",
-        "description" : "Grilled cheese sandwich stuffed with pulled pork, fried onions, american cheese, and balsamic glaze",
-        "price": 13.99
-      },
       {
         "name": "French Dip",
         "description" : "6oz. thinly sliced beef topped with mozzarella cheese served on a hoagie bun and a side of au jus",
@@ -113,18 +121,23 @@
         ]
       },
       {
+        "name": "Chicken Caesar Wrap",
+        "description" : "Romaine lettuce, tomato, shredded parmesan cheese, grilled chicken and caesar dressing in a garlic herb wrap",
+        "price": 13.99
+      },
+      {
         "name": "Fish Tacos",
         "description" : "Two tortilla shells filled with fish, cheddar cheese, lettuce and tomato topped with ancho chipotle sauce.  Served with salsa and sour cream pon request",
         "price": 12.99
       },
       {
-        "name": "Nacho Grilled Cheese",
-        "description" : "Grilled cheese sandwich stuffed with seasoned beef, tortilla chips, cheddar cheese, lettuce, tomato, black olives, and jalapenos served with a side of cheese sauce",
+        "name": "Pulled Pork Grilled Cheese",
+        "description" : "Grilled cheese sandwich stuffed with pulled pork, fried onions, american cheese, and balsamic glaze",
         "price": 13.99
       },
       {
-        "name": "Fire Braised BBQ Pork",
-        "description" : "A heaping half pound of slow roasted fire braised pork loin topped with chipotle BBQ sauce and cole slaw served on a ciabatta roll",
+        "name": "Chicken Fajita Wrap",
+        "description" : "Shredded chicken, green peppers and onions topped with cheese sauce wrapped and grilled in a garlic herb wrap. Served with salsa and sour cream",
         "price": 13.99
       },
       {
@@ -133,13 +146,18 @@
         "price": 12.99
       },
       {
-        "name": "Chicken Caesar Wrap",
-        "description" : "Romaine lettuce, tomato, shredded parmesan cheese, grilled chicken and caesar dressing in a garlic herb wrap",
+        "name": "Nacho Grilled Cheese",
+        "description" : "Grilled cheese sandwich stuffed with seasoned beef, tortilla chips, cheddar cheese, lettuce, tomato, black olives, and jalapenos served with a side of cheese sauce",
         "price": 13.99
       },
       {
-        "name": "Chicken Fajita Wrap",
-        "description" : "Shredded chicken, green peppers and onions topped with cheese sauce wrapped and grilled in a garlic herb wrap. Served with salsa and sour cream",
+        "name": "Pulled Pork Wrap",
+        "description" : "Pulled pork topped with balsamic glaze, jalapeño siracha slaw and tomato, all wrapped up in our garlic herb wrap",
+        "price": 13.99
+      },
+      {
+        "name": "Fire Braised BBQ Pork",
+        "description" : "A heaping half pound of slow roasted fire braised pork loin topped with chipotle BBQ sauce and cole slaw served on a ciabatta roll",
         "price": 13.99
       },
       {
@@ -156,9 +174,34 @@
   },
   {
     "groupName": "Burgers",
-    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute sweet potato fries, tater tots, side salad or soup for $2.29",
+    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute sweet potato fries, side salad or soup for $2.29.",
     "layout": "3col",
     "items": [
+      {
+        "name": "Western Burger",
+        "description" : "1/3 pound patty smothered in chipotle BBQ with swiss cheese, bacon and onion rings on a sourdough bun",
+        "price": 13.99
+      },
+      {
+        "name": "Jalapeño Popper Burger",
+        "description" : "1/3 pound patty with sautéed jalapeños, fried onions, and topped with cream cheese on a sourdough bun with a side of hot sauce",
+        "price": 13.99
+      },
+      {
+        "name": "Breakfast Burger",
+        "description" : "1/3 pound patty topped with cheddar, bacon, fried egg, fried onions and a hash brown served on a sourdough bun",
+        "price": 14.99
+      },
+      {
+        "name": "Dallas Burger",
+        "description" : "1/3 pound patty topped with bacon, cheddar cheese, coleslaw, deep fried pickles and cajun seasoning served on a sourdough bun",
+        "price": 13.99
+      },
+      {
+        "name": "Sweet Potato Fry Burger",
+        "description" : "1/3 pound patty topped with Bleu cheese, bacon, fried onions, sweet potato fries and our homemade sweet & spicy sauce served on a chibatta bun",
+        "price": 15.99
+      },
       {
         "name": "Classic Burger",
         "description" : "1/3 pound burger patty served on a sourdough bun.",
@@ -187,40 +230,20 @@
         ]
       },
       {
-        "name": "Breakfast Burger",
-        "description" : "1/3 pound patty topped with cheddar, bacon, fried egg, fried onions and a hash brown served on a sourdough bun",
-        "price": 14.99
-      },
-      {
-        "name": "Jalapeño Popper Burger",
-        "description" : "1/3 pound patty with sautéed jalapeños, fried onions, and topped with cream cheese on a sourdough bun with a side of hot sauce",
-        "price": 13.99
-      },
-      {
         "name": "Peanut Butter and Jam Burger",
         "description" : "1/3 pound burger patty topped with peanut butter, bacon habanero jam, fried onion and jalapenos served on a ciabatta bun",
         "price": 14.99
-      },      
-      {
-        "name": "Western Burger",
-        "description" : "1/3 pound patty smothered in chipotle BBQ with swiss cheese, bacon and onion rings on a sourdough bun",
-        "price": 13.99
       },
       {
         "name": "Santa Fe Burger",
         "description" : "1/3 pound patty topped with bacon, sautéed jalapeños, pepper jack cheese and ancho chipotle ranch sauce served on a sourdough bun",
-        "price": 13.99
-      },
-      {
-        "name": "Dallas Burger",
-        "description" : "1/3 pound patty topped with bacon, cheddar cheese, coleslaw, deep fried pickles and cajun seasoning served on a sourdough bun",
         "price": 13.99
       }
     ]
   },
   {
     "groupName": "Chicken",
-    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute sweet potato fries, tater tots, side salad or soup for $2.29.",
+    "groupDescription": "Includes choice of fries, kettle chips, homemade potato salad or cottage cheese. Substitute sweet potato fries, side salad or soup for $2.29.",
     "layout": "3col",
     "items": [
       {
@@ -229,13 +252,18 @@
         "price": 13.99
       },
       {
-        "name": "Pesto Chicken",
-        "description" : "Grilled chicken breast topped with pesto sauce and mozzarella cheese served on a focaccia bun and a side of pesto mayo",
+        "name": "Garlic Parm Chicken",
+        "description" : "Grilled chicken breast topped with fried onions, mozzarella cheese and garlic parm sauce served on a focaccia bun",
         "price": 13.99
-      },      
+      },
       {
         "name": "Nashville Hot Chicken",
         "description" : "Fried chicken breast smothered in Nashville Hot sauce, topped with jalapeño siracha slaw and pickles, served on a chibatta bun.",
+        "price": 13.99
+      },
+      {
+        "name": "Pesto Chicken",
+        "description" : "Grilled chicken breast topped with pesto sauce and mozzarella cheese served on a focaccia bun and a side of pesto mayo",
         "price": 13.99
       },
       {
@@ -244,7 +272,7 @@
         "price": 11.99,
         "addOns": [
           {
-            "name": "Make it a club with cheese and bacon.",
+            "name": "Make it a melt with cheese and bacon.",
             "price": 13.99
           }
         ]
@@ -253,7 +281,7 @@
   },
   {
     "groupName": "Soups & Salads",
-    "groupDescription": "All dressing served on the side.Your choice of: ranch, French, Italian, honey mustard, thousand island, bleu cheese, Caesar, raspberry vinaigrette, balsamic vinaigrette.",
+    "groupDescription": "All dressing served on the side.Your choice of: ranch, French, Italian, honey mustard, thousand island, bleu cheese, Caesar, raspberry vinaigrette, balsamic vinaigrette",
     "layout": "2col",
     "items": [
       {
