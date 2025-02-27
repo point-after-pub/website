@@ -215,6 +215,10 @@
         "name": "Dallas Burger",
         "description" : "1/3 pound patty topped with bacon, cheddar cheese, coleslaw, deep fried pickles and cajun seasoning served on a sourdough bun",
         "price": 14.99
+      },
+      {
+        "name": "Gluten Free Buns",
+        "price": 2.00
       }
     ]
   },
