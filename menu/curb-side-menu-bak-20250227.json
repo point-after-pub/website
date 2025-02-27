@@ -6,17 +6,17 @@
       {
         "name": "Cheese Curds",
         "description" : "Lightly breaded white curds, served with a side of ranch",
-        "price": 9.99
+        "price": 8.99
       },
       {
         "name": "Chicken Strips",
         "description" : "4 pieces, served with choice of sauce",
-        "price": 9.99
+        "price": 8.99
       },
       {
         "name": "Hangover Fries",
         "description" : "Fries topped with cheese sauce, bacon and bleu cheese crumbles",
-        "price": 9.99
+        "price": 8.99
       },      
       {
         "name": "Boneless Wings",
@@ -26,7 +26,7 @@
       {
         "name": "Pretzel Bites",
         "description" : "Soft pretzel bites deep fried to perfection and served with Monterey jack cheese sauce",
-        "price": 9.99
+        "price": 8.99
       },      
       {
         "name": "Traditional Wings",
@@ -34,42 +34,42 @@
         "addOns": [
           {
             "name": "6 Wings",
-            "price": 10.99
+            "price": 9.99
           },
           {
             "name": "12 Wings",
-            "price": 17.99
+            "price": 16.99
           }
         ]
       },
       {
         "name": "Onion Rings",
         "description" : "Thick sliced onions hand battered and deep fried to perfection. Served with a side of ranch",
-        "price": 8.99
+        "price": 7.99
       },      
       {
         "name": "Pickle Chips",
         "description" : "Pickle chips lightly seasoned with Cajun, hand battered and deep fried to perfection. Served with a side of ranch",
-        "price": 8.99
+        "price": 7.99
       },
       {
         "name": "Portabella Mushrooms",
         "description" : "Sliced portabellas hand battered and deep fried to perfection. Served with a side of ranch",
-        "price": 9.99
+        "price": 8.99
       },
       {
         "name": "Jalapeño Poppers",
         "description" : "Jalapeños stuffed with cream cheese, breaded and deep fried to perfection",
-        "price": 9.99
+        "price": 8.99
       },
       {
         "name": "Nachos",
         "description" : "Monterey jack cheese sauce, tomato, lettuce, black olives, onions, jalapeños, sour cream and salsa",
-        "price": 10.99,
+        "price": 9.99,
         "addOns": [
           {
             "name": "Beef, Chicken or Pork",
-            "price": 13.99
+            "price": 12.99
           }
         ]
       }
@@ -82,12 +82,12 @@
       {
         "name": "Cajun Chicken",
         "description" : "Quesadilla loaded with shredded cajun chicken, cheddar cheese, jalapeños, tomato and black olives on flour tortillas served with a side of ancho chipotle sauce",
-        "price": 12.99
+        "price": 11.99
       },
       {
         "name": "Chicken Bacon Ranch",
         "description" : "Quesadilla loaded with shredded cajun chicken, bacon, tomato, cheddar cheese and served with a side of ranch dressing on flour tortillas",
-        "price": 12.99
+        "price": 11.99
       }
     ]
   },
@@ -115,12 +115,12 @@
       {
         "name": "Fish Tacos",
         "description" : "Two tortilla shells filled with fish, cheddar cheese, lettuce and tomato topped with ancho chipotle sauce.  Served with salsa and sour cream pon request",
-        "price": 13.99
+        "price": 12.99
       },
       {
         "name": "Nacho Grilled Cheese",
         "description" : "Grilled cheese sandwich stuffed with seasoned beef, tortilla chips, cheddar cheese, lettuce, tomato, black olives, and jalapenos served with a side of cheese sauce",
-        "price": 14.99
+        "price": 13.99
       },
       {
         "name": "Fire Braised BBQ Pork",
@@ -130,27 +130,27 @@
       {
         "name": "Beer Battered Fish Sandwich",
         "description" : "Two pieces of beer battered haddock fish topped with cheddar cheese served on a sourdough bun with a side of tartar sauce",
-        "price": 13.99
+        "price": 12.99
       },
       {
         "name": "Chicken Caesar Wrap",
         "description" : "Romaine lettuce, tomato, shredded parmesan cheese, grilled chicken and caesar dressing in a garlic herb wrap",
-        "price": 14.99
+        "price": 13.99
       },
       {
         "name": "Chicken Fajita Wrap",
         "description" : "Shredded chicken, green peppers and onions topped with cheese sauce wrapped and grilled in a garlic herb wrap. Served with salsa and sour cream",
-        "price": 14.99
+        "price": 13.99
       },
       {
         "name": "Fish Reuben",
         "description" : "Three pieces of haddock blackened topped with coleslaw, Swiss cheese and ancho chipotle sauce served on grilled rye bread",
-        "price": 14.99
+        "price": 13.99
       },
       {
         "name": "Shrimp Tacos",
         "description" : "Two tortilla shells filled with shrimp, cheddar cheese, lettuce and tomato topped with ancho chipotle sauce. Served with sour cream and salsa upon request.",
-        "price": 14.99
+        "price": 13.99
       }
     ]
   },
@@ -162,11 +162,11 @@
       {
         "name": "Classic Burger",
         "description" : "1/3 pound burger patty served on a sourdough bun.",
-        "price": 12.99,
+        "price": 11.99,
         "addOns": [
           {
             "name": "Make it a Veggie Burger",
-            "price": 13.99
+            "price": 12.99
           },
           {
             "name": "Cheese",
@@ -178,7 +178,7 @@
           },
           {
             "name": "Fried Egg",
-            "price": 1.50
+            "price": 1.00
           },
           {
             "name": "Other Toppings",
@@ -189,12 +189,12 @@
       {
         "name": "Breakfast Burger",
         "description" : "1/3 pound patty topped with cheddar, bacon, fried egg, fried onions and a hash brown served on a sourdough bun",
-        "price": 15.99
+        "price": 14.99
       },
       {
         "name": "Jalapeño Popper Burger",
         "description" : "1/3 pound patty with sautéed jalapeños, fried onions, and topped with cream cheese on a sourdough bun with a side of hot sauce",
-        "price": 14.99
+        "price": 13.99
       },
       {
         "name": "Peanut Butter and Jam Burger",
@@ -204,17 +204,17 @@
       {
         "name": "Western Burger",
         "description" : "1/3 pound patty smothered in chipotle BBQ with swiss cheese, bacon and onion rings on a sourdough bun",
-        "price": 14.99
+        "price": 13.99
       },
       {
         "name": "Santa Fe Burger",
         "description" : "1/3 pound patty topped with bacon, sautéed jalapeños, pepper jack cheese and ancho chipotle ranch sauce served on a sourdough bun",
-        "price": 14.99
+        "price": 13.99
       },
       {
         "name": "Dallas Burger",
         "description" : "1/3 pound patty topped with bacon, cheddar cheese, coleslaw, deep fried pickles and cajun seasoning served on a sourdough bun",
-        "price": 14.99
+        "price": 13.99
       }
     ]
   },
@@ -226,40 +226,28 @@
       {
         "name": "Southwest Chicken",
         "description" : "Fried chicken breast topped with pepper jack cheese, bacon and ancho chipotle sauce served on a sourdough bun",
-        "price": 14.99
+        "price": 13.99
       },
       {
         "name": "Pesto Chicken",
         "description" : "Grilled chicken breast topped with pesto sauce and mozzarella cheese served on a focaccia bun and a side of pesto mayo",
-        "price": 14.99
+        "price": 13.99
       },      
       {
         "name": "Nashville Hot Chicken",
         "description" : "Fried chicken breast smothered in Nashville Hot sauce, topped with jalapeño siracha slaw and pickles, served on a chibatta bun.",
-        "price": 14.99
+        "price": 13.99
       },
       {
         "name": "Classic Chicken Sandwich",
         "description" : "Grilled or Fried served on a sourdough bun",
-        "price": 12.99,
+        "price": 11.99,
         "addOns": [
           {
-            "name": "Cheese",
-            "price": 1.00
-          },
-          {
-            "name": "Bacon",
-            "price": 2.00
-          },
-          {
-            "name": "Other Toppings",
-            "price": 0.50
+            "name": "Make it a club with cheese and bacon.",
+            "price": 13.99
           }
         ]
-      },
-      {
-        "name": "Gluten Free Buns",
-        "price": 2.00
       }
     ]
   },
@@ -294,7 +282,7 @@
       {
         "name": "Side Salad",
         "description" : "Romaine lettuce, spring mix, tomato, onion, cucumber and croutons",
-        "price": 5.99
+        "price": 4.99
       },
       {
         "name": "Garden Salad",
@@ -318,7 +306,7 @@
       {
         "name": "Bleu Cheese Bacon Salad",
         "description" : "Romaine lettuce, spring mix, tomato, cucumber, bacon, bleu cheese crumbles and blackened chicken. Served with choice of dressing and garlic toast",
-        "price": 14.99
+        "price": 13.99
       }
     ]
   }
