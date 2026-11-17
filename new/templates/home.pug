@@ -7,26 +7,6 @@ block content
         h1#hero-title
           img.hero-logo(src='assets/images/menu-logo.webp' alt='Point After Pub & Grill' width='1100' height='440' fetchpriority='high')
 
-    section.reviews-section(data-reviews aria-label='Customer reviews' aria-roledescription='carousel')
-      .section-wrap
-        .section-heading.reviews-heading
-          h2 What folks are saying
-        - const pageCount = Math.ceil(reviews.length / 3)
-        .review-pages(data-review-pages)
-          - for (let pageIndex = 0; pageIndex < pageCount; pageIndex++)
-            - const start = Math.min(pageIndex * 3, Math.max(reviews.length - 3, 0))
-            .reviews-grid(data-review-page role='group' aria-roledescription='slide' aria-label=`Reviews ${pageIndex + 1} of ${pageCount}`)
-              each review in reviews.slice(start, start + 3)
-                blockquote.review
-                  p.review-stars(aria-label='5 out of 5 stars') ★★★★★
-                  p.review-quote “#{review.quote}”
-                  footer — #{review.reviewer}
-                  span.review-source Google review
-        .review-controls(data-review-controls hidden)
-          button.review-control(type='button' data-review-previous aria-label='Previous reviews' title='Previous reviews') ←
-          span.review-count(data-review-count aria-live='polite')
-          button.review-control(type='button' data-review-next aria-label='Next reviews' title='Next reviews') →
-
     section#visit.visit-section
       .section-wrap.visit-layout
         div
@@ -73,3 +53,23 @@ block content
             each photo in photos
               .gallery-photo(style=`aspect-ratio: ${photo.width} / ${photo.height}`)
                 img(src=photo.src alt=photo.alt width=photo.width height=photo.height loading='lazy' decoding='async')
+
+    section.reviews-section(data-reviews aria-label='Customer reviews' aria-roledescription='carousel')
+      .section-wrap
+        .section-heading.reviews-heading
+          h2 What folks are saying
+        - const pageCount = Math.ceil(reviews.length / 3)
+        .review-pages(data-review-pages)
+          - for (let pageIndex = 0; pageIndex < pageCount; pageIndex++)
+            - const start = Math.min(pageIndex * 3, Math.max(reviews.length - 3, 0))
+            .reviews-grid(data-review-page role='group' aria-roledescription='slide' aria-label=`Reviews ${pageIndex + 1} of ${pageCount}`)
+              each review in reviews.slice(start, start + 3)
+                blockquote.review
+                  p.review-stars(aria-label='5 out of 5 stars') ★★★★★
+                  p.review-quote “#{review.quote}”
+                  footer — #{review.reviewer}
+                  span.review-source Google review
+        .review-controls(data-review-controls hidden)
+          button.review-control(type='button' data-review-previous aria-label='Previous reviews' title='Previous reviews') ←
+          span.review-count(data-review-count aria-live='polite')
+          button.review-control(type='button' data-review-next aria-label='Next reviews' title='Next reviews') →
