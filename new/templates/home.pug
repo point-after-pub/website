@@ -1,0 +1,75 @@
+extends layout.pug
+
+block content
+  main#main
+    section.hero(aria-labelledby='hero-title')
+      .hero-content
+        h1#hero-title
+          img.hero-logo(src='assets/images/menu-logo.webp' alt='Point After Pub & Grill' width='1100' height='440' fetchpriority='high')
+
+    section.reviews-section(data-reviews aria-label='Customer reviews' aria-roledescription='carousel')
+      .section-wrap
+        .section-heading.reviews-heading
+          h2 What folks are saying
+        - const pageCount = Math.ceil(reviews.length / 3)
+        .review-pages(data-review-pages)
+          - for (let pageIndex = 0; pageIndex < pageCount; pageIndex++)
+            - const start = Math.min(pageIndex * 3, Math.max(reviews.length - 3, 0))
+            .reviews-grid(data-review-page role='group' aria-roledescription='slide' aria-label=`Reviews ${pageIndex + 1} of ${pageCount}`)
+              each review in reviews.slice(start, start + 3)
+                blockquote.review
+                  p.review-stars(aria-label='5 out of 5 stars') ★★★★★
+                  p.review-quote “#{review.quote}”
+                  footer — #{review.reviewer}
+                  span.review-source Google review
+        .review-controls(data-review-controls hidden)
+          button.review-control(type='button' data-review-previous aria-label='Previous reviews' title='Previous reviews') ←
+          span.review-count(data-review-count aria-live='polite')
+          button.review-control(type='button' data-review-next aria-label='Next reviews' title='Next reviews') →
+
+    section#visit.visit-section
+      .section-wrap.visit-layout
+        div
+          p.section-marker FIND YOUR WAY HERE
+          h2 See you at PA
+          p.visit-address
+            | 801 Second Street
+            br
+            | Stevens Point, WI 54481
+            br
+            a(href='tel:+17153447222') 715.344.7222
+          a.button.button-dark(href='https://maps.google.com/?q=801+Second+Street+Stevens+Point+WI+54481' target='_blank' rel='noopener noreferrer') Get directions #[span(aria-hidden='true') ↗]
+        div.hours
+          h3 Hours
+          dl
+            div
+              dt Monday
+              dd Closed
+            div
+              dt Tuesday–Wednesday
+              dd 3pm–10pm
+            div
+              dt Thursday
+              dd 11am–10pm
+            div
+              dt Friday–Saturday
+              dd 11am–12am
+            div
+              dt Sunday
+              dd 11am–10pm
+
+    section#photos.gallery-section(data-gallery aria-labelledby='gallery-heading')
+      .section-wrap
+        .gallery-heading
+          h2#gallery-heading GOOD TIMES
+          span.gallery-mark #{photos.length} photos
+        #gallery-photos.gallery-grid
+          each photo in photos
+            .gallery-photo(data-gallery-item hidden style=`aspect-ratio: ${photo.width} / ${photo.height}`)
+              img(data-src=photo.src alt=photo.alt width=photo.width height=photo.height loading='lazy' decoding='async')
+        button.button.gallery-more(type='button' data-gallery-more aria-controls='gallery-photos' hidden) More photos #[span(aria-hidden='true') ↓]
+        noscript
+          .gallery-grid.gallery-noscript
+            each photo in photos
+              .gallery-photo(style=`aspect-ratio: ${photo.width} / ${photo.height}`)
+                img(src=photo.src alt=photo.alt width=photo.width height=photo.height loading='lazy' decoding='async')

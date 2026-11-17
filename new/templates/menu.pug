@@ -1,0 +1,40 @@
+extends layout.pug
+
+block content
+  main#main.menu-page
+    .menu-masthead
+      .section-wrap
+        h1= menu.title
+        if menu.subtitle
+          p.menu-subtitle= menu.subtitle
+        .menu-actions
+          a.button.button-light(href=menu.pdf download) Download PDF #[span(aria-hidden='true') ↓]
+          if page === 'regular'
+            a.menu-switch(href='friday-menu.html') Friday menu ↗
+          else
+            a.menu-switch(href='menu.html') Menu ↗
+    .section-wrap.menu-body
+      nav.menu-section-nav(aria-label='Menu sections')
+        each section, index in menu.sections
+          a(href=`#section-${index + 1}`)= section.name
+      each section, index in menu.sections
+        section.menu-group(id=`section-${index + 1}`)
+          .menu-group-heading
+            h2= section.name
+            if section.note
+              p.menu-note= section.note
+          .menu-items
+            each item in section.items
+              article.menu-item
+                .menu-item-top
+                  h3= item.name
+                  if item.price
+                    span.menu-price= item.price
+                if item.description
+                  p= item.description
+                if item.extra
+                  p.menu-extra= item.extra
+            if section.footer
+              p.menu-footer-note= section.footer
+      if menu.disclaimer
+        p.menu-disclaimer= menu.disclaimer

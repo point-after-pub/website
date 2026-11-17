@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(name='theme-color' content='#171a18')
+    meta(name='description' content='Food, drinks and good company at Point After Pub & Grill in Stevens Point, Wisconsin.')
+    title= page === 'home' ? 'Point After Pub & Grill | Stevens Point' : `${page === 'specials' ? 'Specials' : menu.title} | Point After Pub & Grill`
+    link(rel='icon' href='assets/images/logo.png')
+    link(rel='stylesheet' href=`assets/style.css?v=${styleVersion}`)
+    script(src=`assets/site.js?v=${scriptVersion}` defer)
+  body
+    a.skip-link(href='#main') Skip to content
+    header.site-header(class=page === 'home' ? 'site-header-home' : '')
+      if page !== 'home'
+        a.brand(href='index.html' aria-label='Point After Pub and Grill home')
+          img(src='assets/images/menu-logo.webp' alt='Point After Pub & Grill' width='1100' height='440')
+      nav.site-nav(aria-label='Main navigation')
+        a(href='index.html') Home
+        a(href='menu.html' data-menu-link) Menu
+        a(href='specials.html') Specials
+        a(href=page === 'home' ? '#visit' : 'index.html#visit') Visit
+    block content
+    footer.site-footer
+      .footer-inner
+        div
+          p.footer-brand Point After
+          p Pub & Grill · Stevens Point, Wisconsin
+        div.footer-links
+          a(href='tel:+17153447222') 715.344.7222
+      p.footer-bottom © Point After Pub & Grill

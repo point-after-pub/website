@@ -1,0 +1,15 @@
+{
+  "name": "point-after-preview",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node tools/build.js",
+    "import:menu": "node tools/import-menu.js",
+    "import:reviews": "node tools/import-reviews.js",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "pug": "^3.0.3",
+    "yaml": "^2.8.1"
+  }
+}
